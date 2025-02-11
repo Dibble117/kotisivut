@@ -3,8 +3,8 @@ import './App.css';
 
 function Header() {
   return (
-    <header className="header">
-      <img src="\logo192.png" alt="Little Lemon Logo" className="logo"/>
+    <header className="App-header">
+      <img src="\jbygg_transparent.png" alt="Jbygg Logo" style={{ maxWidth: '200px', marginRight: '10px' }} />
     </header>
   );
 }
