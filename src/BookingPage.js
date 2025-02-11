@@ -1,5 +1,4 @@
 import React from 'react';
-import BookingForm from './BookingForm';
 
 const BookingPage = () => {
   return (
@@ -16,7 +15,7 @@ const BookingPage = () => {
                     <div className='col-6' style={{height:`120px`, backgroundImage:`url(pic1.jpg)`, backgroundSize: `cover`}}></div>
                     <div className='col-6' style={{height:`120px`, backgroundImage:`url(pic2.jpg)`, backgroundSize: `cover`}}></div>
                 </div>
-                <BookingForm />
+                
             </div>
         </div>
     </div>

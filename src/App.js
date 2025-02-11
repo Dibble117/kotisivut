@@ -1,18 +1,20 @@
 import './App.css';
 import React from 'react';
 import Header from './Header';
-import Nav from './Nav';
+//import Nav from './Nav';
 import Main from './Main';
 import Footer from './Footer';
-import BookingPage from './BookingPage';
+import Karuselli from './Karuselli';
+//import BookingPage from './BookingPage';
 
 function App() {
   return (
     <>
       <Header />
-      <Nav />
+      {/* <Nav /> */}
       <Main />
-      <BookingPage />
+      <Karuselli/>
+      {/*<BookingPage />*/}
       <Footer />
     </>
   );
