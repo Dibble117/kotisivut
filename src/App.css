@@ -27,9 +27,9 @@ html, body {
 
 /* Header styling with a background image */
 .App-header {
-  background-image: url('/public/p2.jpg');
+  background-image: url('/public/p18.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center 55%;
   width: 100%;
   height: 200px;
   position: relative;  /* Needed for absolutely positioning the nav */
@@ -43,7 +43,7 @@ html, body {
   padding: 10px 0;
   display: flex;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.7); /* Adds a translucent background for better contrast */
+  background: rgba(0, 0, 0, 0.8); /* Adds a translucent background for better contrast */
 }
 
 .App-header nav ul {
@@ -57,11 +57,31 @@ html, body {
   margin: 0 15px;
 }
 
-.App-header nav ul li a {
+.App-title {
+  font-size: 4.5em;
+  font-family: 'Lora', 'Times New Roman', Times, serif;
   color: white;
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.9);
+  margin: 0;
+  padding: 10px;
+}
+
+/* Default navigation link styles */
+.App-header nav ul li a {
+  color: white;           /* Ensures the link text is white */
   text-decoration: none;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 24px;        /* Default font size for larger screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .App-header nav ul li {
+    margin: 0 8px;        /* Reduces spacing between the links on small screens */
+  }
+  .App-header nav ul li a {
+    font-size: 16px;      /* Makes the link text smaller on small screens */
+  }
 }
 
 /* Main content styling */
@@ -112,6 +132,7 @@ html, body {
   padding: 10px;
   position: fixed;
   bottom: 0;
+  height: 50px;
   width: 100%;
   text-align: center;
 }

@@ -18,11 +18,16 @@ function Header() {
           <li><a href="/sahkotyot">Sähkötyöt</a></li>
         </ul>
       </nav>
+      {/* text with Jbygg logo, big, white and bold */}
+      <h1 className="App-title">Jbygg</h1>
+
+      {/*
       <img 
         src="/jbygg_transparent.png" 
         alt="Jbygg Logo" 
         style={{ maxWidth: '140px', marginRight: '10px' }} 
       />
+      */}
     </header>
   );
 }
