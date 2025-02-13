@@ -7,13 +7,16 @@ function Rakennustyot() {
     <div className="page-wrapper">
       <div className="page-content">
         <h1>Rakennustyöt</h1>
-        <p>
-          This is the Rakennustyöt page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Fusce sed augue nec lorem accumsan dapibus. Suspendisse potenti.
-        </p>
+        <p></p>
+          <h4>- Uudisrakentaminen</h4>
+          <h4>- Kattotyöt</h4>
+          <h4>- Kaikki saneeraustyöt</h4>
+          <h4>- Kph vesieristykset</h4>
+          <h4>- Saunaremontit</h4>
+          <h4>- Terassit / Pergolat</h4>
       </div>
       <div className="carousel-container">
-        <Karuselli />
+        <Karuselli folder="rakennustyot" imageCount={28} />
       </div>
     </div>
   );

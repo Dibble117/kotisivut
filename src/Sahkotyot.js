@@ -7,13 +7,14 @@ function Sahkotyot() {
     <div className="page-wrapper">
       <div className="page-content">
         <h1>Sähkötyöt</h1>
-        <p>
-          This is the Sähkötyöt page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Fusce sed augue nec lorem accumsan dapibus. Suspendisse potenti.
-        </p>
+        <p></p>
+          <h4>- Kaapeloinnit</h4>
+          <h4>- Kätkennät / Mittaukset</h4>
+          <h4>- Mittatarkistuspöytäkirjan luonti rakennusvalvontaa ja lopputarkastuksia varten</h4>
+          <h4>- S2-luvat</h4>
       </div>
       <div className="carousel-container">
-        <Karuselli />
+     {/*   <Karuselli folder="sahkotyot" imageCount={} />  */}
       </div>
     </div>
   );

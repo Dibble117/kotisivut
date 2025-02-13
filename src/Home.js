@@ -27,6 +27,9 @@ const Home = () => {
           </div>
           <div className="contact-info" style={{ marginTop: '16px', color: '#000000', fontSize: '20px' }}>
             <p>
+              <strong>Joni Pirtelä</strong>
+            </p>
+            <p>
               <strong>Puhelin:</strong> <a href={`tel:${puhelin}`} style={{ color: '#000000' }}>{puhelin}</a>
             </p>
             <p>
@@ -34,7 +37,7 @@ const Home = () => {
             </p>
           </div>
           <div className="company-info" style={{ marginTop: '24px', color: '#000000', fontSize: '20px' }}>
-            <h2>Kaikenlaiset rakennustyöt Porvoossa ja lähialueilla</h2>
+            <h2>Rakennustyöt Porvoossa ja lähialueilla</h2>
             <p>
               Jbygg on rakennusalan yritys, joka tarjoaa monipuolisia palveluita rakennusprojektien toteuttamiseen.
               Lisätietoja ja kuvia töistämme löydät klikkaamalla linkkejä yläpalkista.

@@ -112,13 +112,6 @@ const ContactForm = () => {
           style={{ width: '100%', padding: '8px', minHeight: '150px' }}
         />
       </div>
-      <button
-        type="submit"
-        style={{ padding: '10px 20px', fontSize: '16px', marginBottom: '16px' }}
-        disabled={isSending} // Disable the button when sending
-      >
-        {isSending ? 'Lähetetään...' : 'Lähetä viesti'}
-      </button>
       {formSubmitted && (
         <p style={{ color: 'green', fontSize: '30px', fontWeight: 'bold' }}>
           Viesti lähetetty onnistuneesti! Otamme teihin yhteyttä mahdollisimman pian.
@@ -129,6 +122,13 @@ const ContactForm = () => {
           Viestin lähettäminen epäonnistui. Kokeile viestin lähettämistä laitteen sähköpostisovelluksella tai soita.
         </p>
       )}
+      <button
+        type="submit"
+        style={{ padding: '10px 20px', fontSize: '16px', marginBottom: '16px' }}
+        disabled={isSending} // Disable the button when sending
+      >
+        {isSending ? 'Lähetetään...' : 'Lähetä viesti'}
+      </button>
     </form>
   );
 };
