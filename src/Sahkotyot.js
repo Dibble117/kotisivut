@@ -9,7 +9,7 @@ function Sahkotyot() {
         <h1>Sähkötyöt</h1>
         <p></p>
           <h4>- Kaapeloinnit</h4>
-          <h4>- Kätkennät / Mittaukset</h4>
+          <h4>- Kytkennät / Mittaukset</h4>
           <h4>- Mittatarkistuspöytäkirjan luonti rakennusvalvontaa ja lopputarkastuksia varten</h4>
           <h4>- S2-luvat</h4>
       </div>

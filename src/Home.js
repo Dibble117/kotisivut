@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 
 const Home = () => {
   const puhelin = '+358408675730';
-  const email = 'joni.pirtela@icloud.com';
+  const email = 'jbyggoy@gmail.com';
 
   return (
     <div className="main" style={{ padding: '32px' }}>

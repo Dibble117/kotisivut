@@ -54,7 +54,7 @@ html, body {
 }
 
 .App-header nav ul li {
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 .App-title {
@@ -63,7 +63,7 @@ html, body {
   color: white;
   text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.9);
   margin: 0;
-  padding: 10px;
+  padding: 25px;
 }
 
 /* Default navigation link styles */
@@ -77,10 +77,10 @@ html, body {
 /* Media query for smaller screens */
 @media (max-width: 600px) {
   .App-header nav ul li {
-    margin: 0 8px;        /* Reduces spacing between the links on small screens */
+    margin: 0 4px;        /* Reduces spacing between the links on small screens */
   }
   .App-header nav ul li a {
-    font-size: 16px;      /* Makes the link text smaller on small screens */
+    font-size: 14px;      /* Makes the link text smaller on small screens */
   }
 }
 
