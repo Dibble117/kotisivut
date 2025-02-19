@@ -84,13 +84,16 @@ html, body {
   }
 }
 
+
 /* Main content styling */
+/*
 .main {
   color: white;
   padding: 10px;
   width: 100%;
   text-align: center;
 }
+*/
 
 /* Flex container to hold the text and carousel side-by-side */
 .page-wrapper {

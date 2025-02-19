@@ -9,7 +9,7 @@ function Footer() {
       <div className="row justify-content-center">
      {/*   <div className="col-lg-6 col-sm-12"> */}
      {/*     <div className="footer-content"> */}
-            <p>&copy; {currentYear} Jbygg Oy. Y-tunnus: 3194121-7</p>
+            <p>&copy; {currentYear} Jbygg Oy | Y-tunnus: 3194121-7</p>
      {/*     </div> */}
      {/*   </div> */}
       </div>
